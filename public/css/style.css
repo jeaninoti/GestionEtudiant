@@ -1,0 +1,75 @@
+/* Réinitialisation des styles par défaut */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styles pour le header */
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+/* Styles pour le contenu principal */
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.container p {
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.container li {
+    margin-bottom: 10px;
+}
+
+.container span.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1f10eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
